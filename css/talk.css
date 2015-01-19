@@ -1,0 +1,13 @@
+#hidden {
+  display: none;
+}
+
+.remove-img {
+  width: 10%;
+  height: 10%;
+  margin-right: 10px;
+}
+
+li {
+  list-style-type: none;
+}

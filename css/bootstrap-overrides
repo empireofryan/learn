@@ -1,0 +1,17 @@
+p {
+  background-color: blue;
+  color: red;
+}
+
+.margins {
+  margin-top: 50px;
+  margin-bottom: 50px;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .my-class {
+    display: inline;
+  }
+}

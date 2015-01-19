@@ -1,0 +1,13 @@
+
+p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+#walrus {
+  display: none;
+}

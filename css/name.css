@@ -1,0 +1,182 @@
+#santa-response {
+  display: none;
+}
+
+body {
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+  }
+
+h1, p {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+}
+
+h2 {
+  font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+}
+
+label {
+  padding-bottom: 10px;
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 1.85em;
+  color: maroon;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.background {
+  opacity: 1
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+  background: url("../img/candycane.png") repeat;
+}
+
+#santa-response {
+  display: block;
+  text-align: center;
+}
+
+div.transbox {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:25px;
+  width: 900px;
+  height: 80px;
+  /* margin: 30px 50px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.95;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#past{
+
+  width: 500px;
+  float: left;
+}
+
+.bubble
+{
+  float: left;
+  margin-top: 130px;
+  margin-left: -20px;
+  background: white;
+  width: 200px;
+  border: 4px solid grey;
+  border-radius: 10px;
+}
+
+
+
+.bubble:before
+{
+  content: '';
+  border-style: solid;
+  border-width: 23px 43px 23px 0;
+  border-color: transparent #7F7F7F;
+  display: block;
+  width: 0;
+  z-index: 0;
+  margin-top: 30px;
+  margin-left: -45px;
+  float: left;
+}
+
+#santaknows {
+  font-size: 250%;
+}
+
+/*@-webkit-keyframes george
+{
+  from {
+    top: 0;
+  }
+  to {
+    bottom: 50%;
+  }
+}
+@keyframes george
+{
+  from {
+    top: 0;
+  }
+  to {
+    bottom: 50%;
+  }
+}*/
+
+/*
+#sleigh {
+  text-decoration: none;
+  padding-right: 20px;
+  left: 50%;
+  position: absolute;
+  -webkit-animation: george 5s;
+  animation: george 5s;
+}*/
+
+body
+#snow{
+  background: none;
+  font-family: Androgyne;
+  background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}

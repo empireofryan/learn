@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A cool Dog!</title>
+</head>
+<body>
+  <h1>San Diego's Fluffiest Dog</h1>
+  <h2>Come meet him in La Jolla!</h2>
+
+  <p>He likes dog parks & human food!</p>
+  <ul>
+    <li>Preferably chicken</li>
+    <li>But not too much</ul>
+      <li>Dog treats are okay too.</li>
+    </ul>
+
+
+    <p>Bring your doggie friends to meet him sometime!</p>
+  </body>
+  </html>

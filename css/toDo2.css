@@ -1,0 +1,7 @@
+.list {
+  color: blue;
+  text-decoration: underline;
+}
+.active {
+  display: block;
+}
