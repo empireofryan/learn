@@ -5,3 +5,7 @@
 .active {
   display: block;
 }
+
+#templates {
+  visibility: none;
+}
